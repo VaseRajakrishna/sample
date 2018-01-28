@@ -68,7 +68,7 @@ margin-top: 10px;
     display: table-cell;
 }
 .logo h4{
-    margin: 5px 10px;
+    margin: 15px 10px;
 }
 .r-ctnr:before,.r-ctnr:after{
     display: table;
@@ -194,3 +194,84 @@ img{
     margin: auto;
     text-align: center;
 }
+@media only screen and (max-width:768px){
+    .col-2{
+        float:none !important;
+        text-align: center;
+    }
+    .col-2 p{
+        text-align: center;
+    }
+    .col-6{
+        float: none !important;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+.logo h4 {
+   
+    text-align: center;
+}
+.one-side{
+    width: 90%;
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 15px;
+}
+.r2-txt-ctnr,.r2-img-ctnt{
+    width: 90%;
+    margin: auto;
+    float: none !important;
+    margin-bottom: 15px;
+}
+.r2-txt-ctnt{
+    width: 100%;
+}
+}
+@media only screen and (max-width:480px){
+    .pl-lt,.pl-rt{
+        float: none;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .cl3{
+        width: 90%;
+        margin: auto;
+        float: none;
+    }
+    .navbar{
+        width: 100%;
+    margin: auto;
+    }
+    .nav-ctnr{
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+    .nav-btn{
+        width: 100%;
+    margin: auto;
+    display: block;
+    }
+    .txt-ctnt{
+        width: 100%;
+    }
+    .txt-ctnt-hd,.txt-ctnt-body{
+        text-align: center;
+    }
+    .img-ctnt{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .pnl-icon{
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+}
+
+    
