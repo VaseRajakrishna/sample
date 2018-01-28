@@ -10,6 +10,30 @@ body{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+@font-face { font-family: "Ionicons"; src: url("../fonts/ionicons.eot"); src: url("../fonts/ionicons.eot") format("embedded-opentype"), url("../fonts/ionicons.ttf") format("truetype"), url("../fonts/ionicons.woff") format("woff"), url("../fonts/ionicons.svg") format("svg"); font-weight: normal; font-style: normal; }
+.ion,
+.ion-compose:before,
+.ion-connection-bars:before,
+.ion-ios-paperplane-outline:before,
+.ion-steam:before,
+.ion-android-contacts:before,
+.ion-document:before,
+.ion-ios-telephone:before,
+.ion-ios-email:before{ display: inline-block; font-family: "Ionicons"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.ion-compose::before{
+    content: "\f12c"; 
+}
+.ion-connection-bars:before,{
+    content: "\f274";
+}
+.ion-ios-paperplane-outline:before{
+    content: "\f473";
+}
+.ion-steam:before { content: "\f30b"; }
+.ion-android-contacts:before { content: "\f2d9"; }
+.ion-document:before { content: "\f12f"; }
+.ion-ios-telephone:before { content: "\f4b9"; }
+.ion-ios-email:before { content: "\f423"; }
 p{
     margin: 0 0 10px;
 }
@@ -18,6 +42,7 @@ hr{
     margin-bottom: 5px;
 }
 h1,h2{
+    font-size: 22px;
     margin-bottom: 10px;
     margin-bottom: 10px;
 }
@@ -131,7 +156,9 @@ margin-top: 10px;
     width: 65%;
     padding: 10px;
 }
-
+.txt-ctnt-hd{
+    color: #048c04;
+}
 img{
     max-width: 100%;
     max-height: 100%;
